@@ -183,7 +183,7 @@ function nfc_SAM_config() {
 }
 
 function nfc_scan() {
-    log("nfc_p2p_scan");
+    //log("nfc_p2p_scan");
     send_command_check_ready([PN532_RFCONFIGURATION, PN532_MAX_RETRIES, 0xFF, 0x01, 0x14], 5, 100);
     if (!send_command_check_ready([
         0x4A,                // InListPassivTargets
@@ -199,7 +199,6 @@ function nfc_scan() {
     if (response_buffer[7] > 0) {
         local tag = format("%02x%02x%02x", response_buffer[14], response_buffer[15], response_buffer[16]);
         tag_detected(tag);
-        log("found card with id: " + tag);
 
         return true;
     }
@@ -224,7 +223,7 @@ function nfc_power_down() {
 // dumb prox card.  The ID sent depends on the baud rate.  We're using 106kbit/s
 // so the NFCID1 will be sent (3 bytes).
 function nfc_p2p_target() {
-    log("nfc_p2p_target");
+    //log("nfc_p2p_target");
     if (!send_command([
         0x8C,                                   // TgInitAsTarget
         0x00,                                   // Accepted modes, 0 = all
@@ -274,7 +273,7 @@ function send_command(cmd, cmdlen, timeout) {
         return false;
     }
 
-    log("read ack");
+    //log("read ack");
 
     return true;
 }
