@@ -10,7 +10,6 @@ To explore more about Electric Imp, check out their dev center [here](https://el
 The NFC chip on the badges is an NXP PN532.  You can find the datasheet [here]( http://www.adafruit.com/datasheets/pn532longds.pdf).  The user manual (a bit higher level) is [here]( http://www.adafruit.com/datasheets/pn532um.pdf) and an application note is [here]( http://www.adafruit.com/datasheets/PN532C106_Application%20Note_v1.2.pdf).  With these datasheets, you'll be able to taylor the NFC chip's behavior to your heart's content.
 
 
-
 ## License
 Portions of this code used with permission from [Javier Montaner](https://github.com/jmgjmg/eImpNFC).
 
