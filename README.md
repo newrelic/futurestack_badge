@@ -12,5 +12,7 @@ The NFC chip on the badges is an NXP PN532.  You can find the datasheet [here]( 
 
 
 ## License
+Portions of this code used with permission from [Javier Montaner](https://github.com/jmgjmg/eImpNFC).
+
 Copyright (c) 2013 New Relic, Inc. See the LICENSE file for license rights and limitations (MIT).
 
