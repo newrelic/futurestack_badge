@@ -7,7 +7,7 @@ This firmware will turn your FutureStack badge into a simple NFC tag reader.  To
 To explore more about Electric Imp, check out their dev center [here](https://electricimp.com/docs).  If you want to use your Imp in your own hardware project, check out [this page](https://electricimp.com/docs/gettingstarted/devkits) to find a breakout board.
 
 ### NXP NFC controller
-The NFC chip on the badges is an NXP PN532.  You can find the datasheet [here]( http://www.adafruit.com/datasheets/pn532longds.pdf).  The user manual (a bit higher level) is [here]( http://www.adafruit.com/datasheets/pn532um.pdf) and an application note is [here]( http://www.adafruit.com/datasheets/PN532C106_Application%20Note_v1.2.pdf).  With these datasheets, you'll be able to taylor the NFC chip's behavior to your heart's content.
+The NFC chip on the badges is an NXP PN532.  You can find the datasheet [here]( http://www.adafruit.com/datasheets/pn532longds.pdf).  The user manual (a bit higher level) is [here]( http://www.adafruit.com/datasheets/pn532um.pdf) and an application note is [here]( http://www.adafruit.com/datasheets/PN532C106_Application%20Note_v1.2.pdf).  With these datasheets, you'll be able to tailor the NFC chip's behavior to your heart's content.
 
 
 ## License
