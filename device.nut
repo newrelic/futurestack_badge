@@ -370,7 +370,6 @@ hardware.pin9.configure(PWM_OUT, 0.05, 0);
 spi_init();
 
 // Looks like this was a cold boot.
-imp.configure("FutureStack 13 Badge Demo", [], []);
 imp.setpowersave(true);
 
 // Parse out our hardware id from the impee id chip
